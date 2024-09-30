@@ -1,0 +1,100 @@
+{
+  "main": {
+    "name": "David Mwangi",
+    "occupation": "Frontend Developer && Technical Lead @MMUSTihub",
+    "description": "",
+    "image": "mwas1.jpg",
+    "bio": "Hi there! As a Software Developer and Technical Lead at MMUST iHub, I specialize in Frontend Development with a strong proficiency in React and React Native. My focus is on creating user-friendly interfaces and scalable web applications. I am passionate about delivering seamless user experiences and fostering innovation within my team. With expertise in ReactJS, Next.js, Tailwind CSS, JavaScript, and Node.js, I craft responsive designs that enhance web experiences.",
+    "contactmessage": "Get in touch with me",
+    "email": "dmwas704@gmail.com",
+    "phone": "+254 795290373",
+    "address": {
+      "street": "Naivasha Town",
+      "city": "Nakuru",
+      "state": "Kenya",
+      "zip": "20117"
+    },
+    "website": "https://david-mwas.me",
+    "resumedownload": "https://david-mwas.me",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/David-mwas",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "gtwitter",
+        "url": "https://github.com/PDavid-mwas",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/",
+        "className": "fa fa-linkedin"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Masinde Murilo University Of Science And Technology",
+        "degree": "Bachelor's Degree, Information Technology",
+        "graduated": "Final Year",
+        "description": "Currently Am On My Final Year"
+      }
+    ],
+    "work": [
+      {
+        "company": "MMUSTihub",
+        "title": "Frontend Developer && Technical Lead",
+        "years": "May 2023 - Present",
+        "description": "..."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Web Development(HTML ,CSS, TAILWIND)",
+        "level": "85%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "79%"
+      },
+      {
+        "name": "ReactJs, NextJs",
+        "level": "68%"
+      },
+      {
+        "name": "NodeJs",
+        "level": "65%"
+      },
+      {
+        "name": "React Native",
+        "level": "55%"
+      },
+      {
+        "name": "Git",
+        "level": "75%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+     
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "David is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+        "user": "Binary Brigades"
+      }
+    ]
+  }
+}

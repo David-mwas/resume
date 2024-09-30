@@ -1,0 +1,6 @@
+.hero{
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row ;
+    background: red !important;
+}
