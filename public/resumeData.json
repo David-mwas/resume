@@ -4,7 +4,7 @@
     "occupation": "Frontend Developer && Technical Lead @MMUSTihub",
     "description": "",
     "image": "mwas1.jpg",
-    "bio": "Hi there! As a Software Developer and Technical Lead at MMUST iHub, I specialize in Frontend Development with a strong proficiency in React and React Native. My focus is on creating user-friendly interfaces and scalable web applications. I am passionate about delivering seamless user experiences and fostering innovation within my team. With expertise in ReactJS, Next.js, Tailwind CSS, JavaScript, and Node.js, I craft responsive designs that enhance web experiences.",
+    "bio": "I'm a Frontend Software Developer proficient in ReactJS, Next.js, and Tailwind CSS. With expertise in JavaScript and Node.js, I craft seamless web experiences and responsive designs. Skilled in Git and Python, I prioritize software quality and efficient workflows. Passionate about bug tracking and resolution, I'm committed to excellence in software development. Currently I'm The Frontend Developer and Technical Lead @MMUSTihub, I'm dedicated to continuous learning and innovation.",
     "contactmessage": "Get in touch with me",
     "email": "dmwas704@gmail.com",
     "phone": "+254 795290373",
@@ -85,9 +85,7 @@
     ]
   },
   "portfolio": {
-    "projects": [
-     
-    ]
+    "projects": []
   },
   "testimonials": {
     "testimonials": [
