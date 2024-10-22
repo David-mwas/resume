@@ -35,20 +35,28 @@ const About = ({ data }) => {
                 <span>{name}</span>
                 <br />
                 <span>
+                  <b>Street: </b>
                   {street}
                   <br />
-                  {city} {state}, {zip}
+                  <b>City: </b> {city} {state}, {zip}
                 </span>
                 <br />
-                <span>{phone}</span>
+                <b>Phone: </b> <span>{phone}</span>
                 <br />
-                <span>{email}</span>
+                <b>Email: </b> <span>{email}</span>
               </p>
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
+                <a
+                  href={resumeDownload}
+                  className="button"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="cv"
+                >
+                  <i class="fa fa-eye" aria-hidden="true"></i>View Curriculum
+                  Vitae(CV)
                 </a>
               </p>
             </div>

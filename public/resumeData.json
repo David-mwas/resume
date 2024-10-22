@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "David Mwangi",
+    "name": "David Mwangi Wanjiru",
     "occupation": "Frontend Developer && Technical Lead @MMUSTihub",
     "description": "",
     "image": "mwas1.jpg",
@@ -15,7 +15,7 @@
       "zip": "20117"
     },
     "website": "https://david-mwas.me",
-    "resumedownload": "https://david-mwas.me",
+    "resumedownload": "https://david-mwas.me/DAVIDMWANGIWANJIRU%20CVLTS.pdf",
     "social": [
       {
         "name": "github",
@@ -24,17 +24,13 @@
       },
       {
         "name": "gtwitter",
-        "url": "https://github.com/PDavid-mwas",
+        "url": "https://x.com/DavidMwas2_0",
         "className": "fa fa-twitter"
       },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/",
-        "className": "fa fa-facebook"
-      },
+
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/",
+        "url": "https://www.linkedin.com/in/david-mwas-a57186235/",
         "className": "fa fa-linkedin"
       }
     ]
@@ -85,7 +81,29 @@
     ]
   },
   "portfolio": {
-    "projects": []
+    "projects": [
+      {
+        "title": "VIDMIND",
+        "category": "",
+        "image": "vidmind.png",
+        "description": "VIDMIND is a system designed to automatically summarize, analyze, and extract key information from YouTube video content. By leveraging text embeddings and natural language processing techniques, VIDMIND aims to provide users with concise summaries and key insights, reducing the need for manual video viewing and note-taking.",
+        "url": "https://vidmind.vercel.app"
+      },
+      {
+        "title": "VIDMIND",
+        "category": "",
+        "image": "vidmind.png",
+        "description": " VIDMIND is a video streaming platform that allows users to watch movies and TV shows. It has a user-friendly interface that makes it easy to navigate through the app. Users can search for movies and TV shows by genre, release date, and popularity. They can also create playlists of their favorite movies and TV shows. VIDMIND is available on the web, iOS, and Android platforms.",
+        "url": "https://vidmind.vercel.app"
+      },
+      {
+        "title": "VIDMIND",
+        "category": "",
+        "image": "vidmind.png",
+        "description": " VIDMIND is a video streaming platform that allows users to watch movies and TV shows. It has a user-friendly interface that makes it easy to navigate through the app. Users can search for movies and TV shows by genre, release date, and popularity. They can also create playlists of their favorite movies and TV shows. VIDMIND is available on the web, iOS, and Android platforms.",
+        "url": "https://vidmind.vercel.app"
+      }
+    ]
   },
   "testimonials": {
     "testimonials": [

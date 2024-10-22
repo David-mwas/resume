@@ -63,7 +63,10 @@ const Header = ({ data }) => {
       </nav>
 
       <div className="row banner">
-        <img src="/images/mwas.jpg" alt="mwas pic" id="mwas" />
+        <div className="items-center justify-center flex">
+         
+          <img src="/images/mwas.jpg" alt="mwas pic" id="mwas" />
+        </div>
         <div className="banner-text">
           <h1 className="responsive-headline">
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>

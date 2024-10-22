@@ -1,52 +1,79 @@
 import React from "react";
 
-const Portfolio = ({ data }) => {
+const Portfolio = ({ data, loading }) => {
+  console.log(data);
   if (data) {
-    var projects = data.projects.map(function (projects) {
-      var projectImage = "images/portfolio/" + projects.image;
+    var projects = data?.map(function (project) {
+      var projectImage = project.imageUrls
+        ? project.imageUrls[0]
+        : "https://via.placeholder.com/400x300"; // Placeholder if image is missing
+
       return (
-        <div key={projects.title} className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-              <img alt={projects.title} src={projectImage} />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>{projects.title}</h5>
-                  <p>{projects.category}</p>
-                </div>
+        <div key={project.title} className="w-full sm:w-1/2 lg:w-1/3 p-4">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img
+              alt={project.title}
+              src={projectImage}
+              className="w-full h-56 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="font-extrabold mb-2 text-3xl">{project.title}</h3>
+              <p className="text-gray-700 mb-2">{project.category}</p>
+              <p className="text-gray-600 mb-4">{project.description}</p>
+
+              <div className="mb-4">
+                <p className="font-bold text-[20px] text-gray-600">
+                  Tech Stack:
+                </p>
+                <p className="text-gray-600">{project?.tabs}</p>
               </div>
-              <div className="link-icon">
-                <i className="fa fa-link"></i>
+
+              <div className="flex space-x-4">
+                <a
+                  href={project.githublink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-600 text-white px-4 py-2 rounded cursor-pointer hover:bg-gray-500 hover:text-white"
+                >
+                  <i className="fa fa-github"></i> GitHub
+                </a>
+                <a
+                  href={project.livelink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-400 hover:text-white cursor-pointer"
+                >
+                  <i class="fa fa-link" aria-hidden="true"></i> View Live
+                </a>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       );
     });
   }
-  //  {
-  //         "title": "VIDMIND",
-  //         "category": "",
-  //         "image": "",
-  //         "url": "https://vidmind.vercel.app"
-  //       }
-  return (
-    <section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
 
-          <div
-            id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
-          >
-            {!projects ? (
+  return (
+    <section id="portfolio" className="py-4 px-2">
+      <div className="container mx-auto">
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-extrabold">
+            Check Out Some of My Works
+          </h1>
+        </div>
+        {loading ? (
+          <p>loading... </p>
+        ) : (
+          <div className="flex flex-wrap -m-4">
+            {projects ? (
               projects
             ) : (
-              <h2 style={{ color: "gray" }}>Coming soon...</h2>
+              <h2 className="text-gray-500 text-center w-full">
+                Coming soon...
+              </h2>
             )}
           </div>
-        </div>
+        )}
       </div>
     </section>
   );
