@@ -52,59 +52,9 @@
         "years": "May 2023 - Present",
         "description": "..."
       }
-    ],
-    "skills": [
-      {
-        "name": "Web Development(HTML ,CSS, TAILWIND)",
-        "level": "85%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "79%"
-      },
-      {
-        "name": "ReactJs, NextJs",
-        "level": "68%"
-      },
-      {
-        "name": "NodeJs",
-        "level": "65%"
-      },
-      {
-        "name": "React Native",
-        "level": "55%"
-      },
-      {
-        "name": "Git",
-        "level": "75%"
-      }
     ]
   },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "VIDMIND",
-        "category": "",
-        "image": "vidmind.png",
-        "description": "VIDMIND is a system designed to automatically summarize, analyze, and extract key information from YouTube video content. By leveraging text embeddings and natural language processing techniques, VIDMIND aims to provide users with concise summaries and key insights, reducing the need for manual video viewing and note-taking.",
-        "url": "https://vidmind.vercel.app"
-      },
-      {
-        "title": "VIDMIND",
-        "category": "",
-        "image": "vidmind.png",
-        "description": " VIDMIND is a video streaming platform that allows users to watch movies and TV shows. It has a user-friendly interface that makes it easy to navigate through the app. Users can search for movies and TV shows by genre, release date, and popularity. They can also create playlists of their favorite movies and TV shows. VIDMIND is available on the web, iOS, and Android platforms.",
-        "url": "https://vidmind.vercel.app"
-      },
-      {
-        "title": "VIDMIND",
-        "category": "",
-        "image": "vidmind.png",
-        "description": " VIDMIND is a video streaming platform that allows users to watch movies and TV shows. It has a user-friendly interface that makes it easy to navigate through the app. Users can search for movies and TV shows by genre, release date, and popularity. They can also create playlists of their favorite movies and TV shows. VIDMIND is available on the web, iOS, and Android platforms.",
-        "url": "https://vidmind.vercel.app"
-      }
-    ]
-  },
+
   "testimonials": {
     "testimonials": [
       {

@@ -10,7 +10,7 @@ const ProjectManagement = () => {
   const [time, setTime] = useState("");
   const [tabs, setTabs] = useState([]);
   const [imageFiles, setImageFiles] = useState([]); // To handle file uploads
-  const [token, setToken] = useState(localStorage.getItem("token"));
+  // const [token, setToken] = useState(localStorage.getItem("token"));
 
   // Fetch all projects on component mount
   useEffect(() => {
@@ -19,7 +19,9 @@ const ProjectManagement = () => {
         const response = await fetch(
           "https://portfolio-cms-nine.vercel.app/api/v1/project/getall",
           {
-            headers: { Authorization: `Bearer ${token}` },
+            headers: {
+              Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRtd2FzNzA0QGdtYWlsLmNvbSIsImlhdCI6MTczMDAzMjAwNSwiZXhwIjoxNzYxNTg5NjA1LCJhdWQiOiI2NjIzOTM1Y2ZlMGI4ZDJiOTgyMjQ3Y2IiLCJpc3MiOiJhcHBsaWNhdGlvbiJ9.tg3k_cfvrYWi3FO8-6F1ethCuBXuWoJN8bx-HADoPXw`,
+            },
           }
         );
 
@@ -34,7 +36,7 @@ const ProjectManagement = () => {
       }
     };
     fetchProjects();
-  }, [token]);
+  }, []);
 
   // Handle file input changes
   const handleFileChange = (e) => {
@@ -65,7 +67,7 @@ const ProjectManagement = () => {
         {
           method: "POST",
           headers: {
-            Authorization: `Bearer ${token}`,
+            Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRtd2FzNzA0QGdtYWlsLmNvbSIsImlhdCI6MTczMDAzMjAwNSwiZXhwIjoxNzYxNTg5NjA1LCJhdWQiOiI2NjIzOTM1Y2ZlMGI4ZDJiOTgyMjQ3Y2IiLCJpc3MiOiJhcHBsaWNhdGlvbiJ9.tg3k_cfvrYWi3FO8-6F1ethCuBXuWoJN8bx-HADoPXw`,
           },
           body: formData, // send formData
         }
@@ -100,7 +102,7 @@ const ProjectManagement = () => {
         {
           method: "DELETE",
           headers: {
-            Authorization: `Bearer ${token}`,
+            Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRtd2FzNzA0QGdtYWlsLmNvbSIsImlhdCI6MTczMDAzMjAwNSwiZXhwIjoxNzYxNTg5NjA1LCJhdWQiOiI2NjIzOTM1Y2ZlMGI4ZDJiOTgyMjQ3Y2IiLCJpc3MiOiJhcHBsaWNhdGlvbiJ9.tg3k_cfvrYWi3FO8-6F1ethCuBXuWoJN8bx-HADoPXw`,
           },
         }
       );

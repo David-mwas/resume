@@ -230,8 +230,8 @@
     margin: 0 16px;
   }
   #mwas {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
   }
   /* scrolldown link */
   header .scrolldown {
@@ -430,7 +430,7 @@
     padding-top: 24px;
   }
   header .banner-text h1 {
-    font: 40px/1.1em "opensans-bold", sans-serif;
+    font: 28px/1.1em "opensans-bold", sans-serif;
     margin: 0 auto 24px auto;
   }
   header .banner-text h3 {

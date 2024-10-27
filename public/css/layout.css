@@ -44,10 +44,18 @@ header {
   text-align: center;
   overflow: hidden;
 }
+#occupation{
+ color: #a8a8a8;
+ transition: all 0.3s ease-in-out;
+
+}#occupation:hover{
+  color: blueviolet;
+   border-bottom: 1px solid blueviolet;
+}
 #mwas {
   
-  width: 250px;
-  height: 250px;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   object-fit: cover;
   object-position: top center;
