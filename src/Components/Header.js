@@ -84,9 +84,7 @@ const Header = ({ data }) => {
           {/* <img src="/images/mwas.jpg" alt="mwas pic" id="mwas" /> */}
         </div>
         <div className="banner-text">
-          <h1 className="responsive-headline">
-            <TypeWriter typing={2}>{name ? `I'm ${name}.` : null}</TypeWriter>
-          </h1>
+          <h1 className="responsive-headline">I'm {name}.</h1>
           <h3>
             Based in {city}, Kenya <br />
             <a
