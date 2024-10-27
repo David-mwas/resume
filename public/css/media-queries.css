@@ -430,7 +430,8 @@
     padding-top: 24px;
   }
   header .banner-text h1 {
-    font: 28px/1.1em "opensans-bold", sans-serif;
+    font: 25px/1.1em "opensans-bold", sans-serif;
+    font-size: 25px !important;
     margin: 0 auto 24px auto;
   }
   header .banner-text h3 {
