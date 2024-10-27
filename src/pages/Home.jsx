@@ -12,7 +12,11 @@ import "../App.css";
 function Home() {
   const [resumeData, setResumeData] = useState({});
   const [projects, setProjects] = useState([]);
-  const [token, setToken] = useState(localStorage.getItem("token"));
+  // const token = process.env.REACT_APP_TOKEN;
+
+  const [token, setToken] = useState(
+    localStorage.getItem("token") || process.env.REACT_APP_TOKEN
+  );
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     fetch("/resumeData.json")
@@ -44,7 +48,7 @@ function Home() {
       } catch (err) {
         setLoading(false);
         console.error(err.message);
-      }finally {
+      } finally {
         setLoading(false);
       }
     };
@@ -55,7 +59,7 @@ function Home() {
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />
-      <Portfolio data={projects} loading={loading } />
+      <Portfolio data={projects} loading={loading} />
       <Testimonials data={resumeData.testimonials} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />

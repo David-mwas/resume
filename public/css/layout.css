@@ -36,7 +36,7 @@ header {
   min-height: 500px;
   width: 100%;
   background: linear-gradient(rgba(22, 20, 21, 0.7), rgba(22, 20, 21, 0.99)),
-    url("../images/img/software-developer-6521720.jpg");
+    url("../images/software-developer.webp");
   background-size: cover !important;
   background-position: top center;
   background-repeat: no-repeat;
@@ -539,7 +539,7 @@ ul#nav li.current a {
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 
-  background: url(../images/overlay-bg.png) repeat;
+  background: url("../images/overlay-bg.webp") repeat;
 }
 .portfolio-item .item-wrap .link-icon {
   display: block;
@@ -728,7 +728,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
+  background: #1f1f1f url("../images/testimonials-bg.webp") no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
